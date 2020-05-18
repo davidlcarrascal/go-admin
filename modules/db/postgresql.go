@@ -7,9 +7,10 @@ package db
 import (
 	"database/sql"
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/config"
 	"strconv"
 	"strings"
+
+	"github.com/GoAdminGroup/go-admin/modules/config"
 )
 
 // Postgresql is a Connection of postgresql.
@@ -72,7 +73,7 @@ func (db *Postgresql) InitDB(cfgList map[string]config.Database) Connection {
 		for conn, cfg := range cfgList {
 
 			if cfg.Dsn == "" {
-				cfg.Dsn = fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
+				cfg.Dsn = fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=require",
 					cfg.Host, cfg.Port, cfg.User, cfg.Pwd, cfg.Name)
 			}
 
