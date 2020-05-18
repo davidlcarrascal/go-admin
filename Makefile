@@ -1,8 +1,8 @@
 GOCMD = go
 GOBUILD = $(GOCMD) build
 BINARY_NAME = adm
-LAST_VERSION = v1.2.5
-VERSION = v1.2.6
+LAST_VERSION = v1.2.11
+VERSION = v1.2.12
 CLI = adm
 
 TEST_CONFIG_PATH=./../../common/config.json
