@@ -1,11 +1,11 @@
 package datamodel
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	tmpl "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/davidlcarrascal/go-admin/context"
+	tmpl "github.com/davidlcarrascal/go-admin/template"
+	"github.com/davidlcarrascal/go-admin/template/chartjs"
+	"github.com/davidlcarrascal/go-admin/template/icon"
+	"github.com/davidlcarrascal/go-admin/template/types"
 	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
 	"github.com/GoAdminGroup/themes/adminlte/components/description"
 	"github.com/GoAdminGroup/themes/adminlte/components/infobox"

@@ -2,8 +2,8 @@ package db
 
 import (
 	"database/sql"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mssql"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/mssql"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/postgres"
 	"github.com/magiconair/properties/assert"
 	"testing"
 )

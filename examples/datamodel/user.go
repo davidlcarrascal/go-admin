@@ -2,17 +2,17 @@ package datamodel
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
-	"github.com/GoAdminGroup/go-admin/template/types/form/select"
-	editType "github.com/GoAdminGroup/go-admin/template/types/table"
+	"github.com/davidlcarrascal/go-admin/context"
+	"github.com/davidlcarrascal/go-admin/modules/db"
+	form2 "github.com/davidlcarrascal/go-admin/plugins/admin/modules/form"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules/table"
+	"github.com/davidlcarrascal/go-admin/template"
+	"github.com/davidlcarrascal/go-admin/template/icon"
+	"github.com/davidlcarrascal/go-admin/template/types"
+	"github.com/davidlcarrascal/go-admin/template/types/action"
+	"github.com/davidlcarrascal/go-admin/template/types/form"
+	"github.com/davidlcarrascal/go-admin/template/types/form/select"
+	editType "github.com/davidlcarrascal/go-admin/template/types/table"
 )
 
 // GetUserTable return the model of table user.

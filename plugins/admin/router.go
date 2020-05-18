@@ -1,10 +1,10 @@
 package admin
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/template"
+	"github.com/davidlcarrascal/go-admin/context"
+	"github.com/davidlcarrascal/go-admin/modules/auth"
+	"github.com/davidlcarrascal/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/template"
 )
 
 // initRouter initialize the router and return the context.

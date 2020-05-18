@@ -1,10 +1,10 @@
 package example
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	c "github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/plugins"
+	"github.com/davidlcarrascal/go-admin/context"
+	c "github.com/davidlcarrascal/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/modules/service"
+	"github.com/davidlcarrascal/go-admin/plugins"
 )
 
 type Example struct {

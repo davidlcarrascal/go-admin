@@ -13,10 +13,10 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/core"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/davidlcarrascal/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/modules/db"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules"
+	"github.com/davidlcarrascal/go-admin/template/types/form"
 	"github.com/go-ini/ini"
 	"github.com/mgutz/ansi"
 	"github.com/schollz/progressbar"
@@ -403,10 +403,10 @@ func generateFile(table string, conn db.Connection, fieldField, typeField, packa
 	content := `package ` + packageName + `
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/davidlcarrascal/go-admin/context"
+	"github.com/davidlcarrascal/go-admin/modules/db"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules/table"
+	"github.com/davidlcarrascal/go-admin/template/types/form"
 )
 
 func Get` + strings.Title(tableCamel) + `Table(ctx *context.Context) table.Table {
@@ -500,7 +500,7 @@ func generateTables(outputPath string, tables []string, packageName string) {
 	} else {
 		content = `package ` + packageName + `
 
-import "github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
+import "github.com/davidlcarrascal/go-admin/plugins/admin/modules/table"
 
 // The key of Generators is the prefix of table info url.
 // The corresponding value is the Form and Table data.

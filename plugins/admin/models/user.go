@@ -1,11 +1,11 @@
 package models
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
+	"github.com/davidlcarrascal/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/modules/db"
+	"github.com/davidlcarrascal/go-admin/modules/db/dialect"
+	"github.com/davidlcarrascal/go-admin/modules/logger"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules/constant"
 	"net/url"
 	"regexp"
 	"strconv"

@@ -6,12 +6,12 @@ package types
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
+	"github.com/davidlcarrascal/go-admin/context"
+	"github.com/davidlcarrascal/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/modules/menu"
+	"github.com/davidlcarrascal/go-admin/modules/system"
+	"github.com/davidlcarrascal/go-admin/modules/utils"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/models"
 	"html/template"
 	"strconv"
 )

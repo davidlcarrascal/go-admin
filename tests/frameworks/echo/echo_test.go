@@ -1,7 +1,7 @@
 package echo
 
 import (
-	"github.com/GoAdminGroup/go-admin/tests/common"
+	"github.com/davidlcarrascal/go-admin/tests/common"
 	"github.com/gavv/httpexpect"
 	"net/http"
 	"testing"

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/modules/config"
 	"github.com/gogf/gf/text/gregex"
 )
 

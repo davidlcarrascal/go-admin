@@ -1,9 +1,9 @@
 package parameter
 
 import (
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules/constant"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules/form"
 	"net/url"
 	"strconv"
 	"strings"

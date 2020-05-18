@@ -3,8 +3,8 @@ package login
 import (
 	"bytes"
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"github.com/davidlcarrascal/go-admin/modules/language"
+	"github.com/davidlcarrascal/go-admin/modules/logger"
 	"html/template"
 	"strings"
 )

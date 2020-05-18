@@ -2,25 +2,25 @@ package buffalo
 
 import (
 	// add buffalo adapter
-	_ "github.com/GoAdminGroup/go-admin/adapter/buffalo"
+	_ "github.com/davidlcarrascal/go-admin/adapter/buffalo"
 	// add mysql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mssql"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	_ "github.com/GoAdminGroup/themes/adminlte"
 
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
+	"github.com/davidlcarrascal/go-admin/template"
+	"github.com/davidlcarrascal/go-admin/template/chartjs"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
+	"github.com/davidlcarrascal/go-admin/engine"
+	"github.com/davidlcarrascal/go-admin/plugins/admin"
+	"github.com/davidlcarrascal/go-admin/plugins/example"
+	"github.com/davidlcarrascal/go-admin/tests/tables"
 	"github.com/gobuffalo/buffalo"
 	"net/http"
 	"os"

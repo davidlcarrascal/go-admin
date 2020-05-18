@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/language"
+	"github.com/davidlcarrascal/go-admin/modules/language"
 	"html/template"
 	"strconv"
 )

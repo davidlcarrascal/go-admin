@@ -7,8 +7,8 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"github.com/davidlcarrascal/go-admin/modules/constant"
+	"github.com/davidlcarrascal/go-admin/modules/logger"
 	"gopkg.in/ini.v1"
 	"gopkg.in/yaml.v2"
 	"html/template"

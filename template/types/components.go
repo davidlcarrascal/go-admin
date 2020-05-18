@@ -5,9 +5,9 @@
 package types
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/davidlcarrascal/go-admin/modules/menu"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules"
+	"github.com/davidlcarrascal/go-admin/template/types/form"
 	"html/template"
 )
 

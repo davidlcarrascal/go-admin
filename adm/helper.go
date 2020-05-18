@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/modules/system"
+	"github.com/davidlcarrascal/go-admin/modules/system"
 	"github.com/mgutz/ansi"
 )
 

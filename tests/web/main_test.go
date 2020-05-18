@@ -2,7 +2,7 @@ package web
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/modules/config"
 	"github.com/mgutz/ansi"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
@@ -13,15 +13,15 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/gin"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/davidlcarrascal/go-admin/adapter/gin"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/mysql"
 	_ "github.com/GoAdminGroup/themes/adminlte"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
+	"github.com/davidlcarrascal/go-admin/engine"
+	"github.com/davidlcarrascal/go-admin/plugins/admin"
+	"github.com/davidlcarrascal/go-admin/template"
+	"github.com/davidlcarrascal/go-admin/template/chartjs"
+	"github.com/davidlcarrascal/go-admin/tests/tables"
 	"github.com/gin-gonic/gin"
 	"github.com/sclevine/agouti"
 )

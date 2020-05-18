@@ -2,8 +2,8 @@ package db
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	"github.com/davidlcarrascal/go-admin/modules/config"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/mysql"
 	"github.com/magiconair/properties/assert"
 	"os"
 	"regexp"

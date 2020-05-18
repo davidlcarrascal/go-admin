@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/davidlcarrascal/go-admin/modules/db/drivers/postgres"
 	"os"
 	"os/exec"
 	"path"

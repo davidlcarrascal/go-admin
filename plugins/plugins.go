@@ -6,9 +6,9 @@ package plugins
 
 import (
 	"errors"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/modules/service"
+	"github.com/davidlcarrascal/go-admin/context"
+	"github.com/davidlcarrascal/go-admin/modules/logger"
+	"github.com/davidlcarrascal/go-admin/modules/service"
 	"plugin"
 )
 

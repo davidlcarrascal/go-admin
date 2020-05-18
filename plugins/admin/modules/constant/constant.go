@@ -1,9 +1,9 @@
 package constant
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/template/icon"
+	"github.com/davidlcarrascal/go-admin/modules/constant"
+	"github.com/davidlcarrascal/go-admin/modules/language"
+	"github.com/davidlcarrascal/go-admin/template/icon"
 )
 
 const (

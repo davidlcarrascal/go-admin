@@ -1,9 +1,9 @@
 package guard
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
+	"github.com/davidlcarrascal/go-admin/context"
+	"github.com/davidlcarrascal/go-admin/modules/auth"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules/form"
 	"html/template"
 	"strconv"
 )

@@ -1,15 +1,15 @@
 package admin
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/controller"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/davidlcarrascal/go-admin/context"
+	"github.com/davidlcarrascal/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/modules/db"
+	"github.com/davidlcarrascal/go-admin/modules/service"
+	"github.com/davidlcarrascal/go-admin/plugins"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/controller"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules/guard"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/modules/table"
+	"github.com/davidlcarrascal/go-admin/template/types"
 )
 
 // Admin is a GoAdmin plugin.

@@ -5,14 +5,14 @@
 package auth
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/page"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	template2 "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/davidlcarrascal/go-admin/context"
+	"github.com/davidlcarrascal/go-admin/modules/config"
+	"github.com/davidlcarrascal/go-admin/modules/db"
+	"github.com/davidlcarrascal/go-admin/modules/language"
+	"github.com/davidlcarrascal/go-admin/modules/page"
+	"github.com/davidlcarrascal/go-admin/plugins/admin/models"
+	template2 "github.com/davidlcarrascal/go-admin/template"
+	"github.com/davidlcarrascal/go-admin/template/types"
 	"html/template"
 	"net/url"
 )
